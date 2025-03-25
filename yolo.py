@@ -23,7 +23,8 @@ MODEL_PATH = "yolov8m.pt"
 VIDEO_PATH = "D:/videos/camera4/video1.mp4"
 CONFIDENCE_THRESHOLD = 0.2
 IOU_THRESHOLD = 0.1
-PROCESS_EVERY_NTH_FRAME = 2
+PROCESS_EVERY_NTH_FRAME = 1
+BUFFER_ZONE = 25
 SAVE_VIDEO = False  # Whether to save the video
 SAVE_PATH = "D:/videos/camera4/output/conf_" + str(CONFIDENCE_THRESHOLD) + "/iou_" + str(IOU_THRESHOLD) + "/yolov8m_1.mp4"
 
@@ -234,7 +235,7 @@ def point_crosses_line(point, line):
         
     # Check if point is within the line segment bounds
     if min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2):
-        return d < 25
+        return d < BUFFER_ZONE
     
     return False
 
