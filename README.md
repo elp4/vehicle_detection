@@ -1,6 +1,6 @@
 # Vehicle detection using YOLO, SSD or Faster R-CNN
 
-*This is a repository for my Diploma Thesis conducted in Aristotle University of Thessaloniki.*
+*This is a repository for my Diploma Thesis.*
 
 **Instructions:**\
 Before running the code adjust the following parameters:
