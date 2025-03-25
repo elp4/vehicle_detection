@@ -26,6 +26,7 @@ VIDEO_PATH = "D:/videos/camera4/video1.mp4"
 CONFIDENCE_THRESHOLD = 0.8
 IOU_THRESHOLD = 0.1
 PROCESS_EVERY_NTH_FRAME = 1
+BUFFER_ZONE = 50
 SAVE_VIDEO = True  # Whether to save the video
 SAVE_PATH = "D:/videos/camera4/output/conf_" + str(CONFIDENCE_THRESHOLD) + "/iou_" + str(IOU_THRESHOLD) + "/faster_rcnn_1.mp4"
 
@@ -263,7 +264,7 @@ def point_crosses_line(point, line):
     #print("d = ",d)
         
     if min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2):
-        return d < 50
+        return d < BUFFER_ZONE
     
     return False
 
