@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -329,10 +323,6 @@ if __name__ == "__main__":
         save_info_to_txt(elapsed_time)
         print(f"Video saved to: {SAVE_PATH}")
         print(f"Detection results saved to: {os.path.splitext(SAVE_PATH)[0] + '.txt'}")
-
-
-# In[ ]:
-
 
 
 
