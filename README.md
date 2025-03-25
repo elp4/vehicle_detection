@@ -2,7 +2,8 @@
 
 *This is a repository for my Diploma Thesis.*
 
-**Instructions:**\
+## ☞ Instructions:
+
 Before running the code adjust the following parameters:
 - **VIDEO_PATH**: The path to the video file where detections will be made.<br />
 - **CONFIDENCE_THRESHOLD**: The confidence threshold for detections. Values from 0.0 to 1.0.<br />
@@ -13,7 +14,7 @@ Before running the code adjust the following parameters:
 - **SAVE_VIDEO**: Boolean that determines whether the results will be saved.<br />
 - **SAVE_PATH**: The save path for the output video.<br />
 
-Οδηγίες:\
+## ☞ Οδηγίες:
 Πριν από την εκτέλεση του κώδικα προσαρμόστε τις ακόλουθες παραμέτρους:
 - **VIDEO_PATH**: Η διαδρομή προς το αρχείο βίντεο που θα γίνουν οι ανιχνεύσεις.<br />
 - **CONFIDENCE_THRESHOLD**: Το όριο εμπιστοσύνης για τις ανιχνεύσεις. Δέχεται τιμές από 0.0 έως 1.0.<br />
