@@ -24,3 +24,13 @@ Before running the code adjust the following parameters:
 - **PROCESS_EVERY_NTH_FRAME**: Επιλέγεται η επεξεργασία κάθε n-οστού καρέ, ώστε να μειώνεται ο υπολογιστικός φόρτος.<br />
 - **SAVE_VIDEO**: Boolean που καθορίζει αν θα αποθηκευτούν τα αποτελέσματα.<br />
 - **SAVE_PATH**: Η διαδρομή αποθήκευσης για το εξαγόμενο βίντεο.<br />
+
+
+# Preview
+
+![video mp4 (1)](https://github.com/user-attachments/assets/244f220f-4864-4ea6-913e-3d11f798ea24)
+
+
+Screenshot
+
+<img width="1710" alt="1image" src="https://github.com/user-attachments/assets/c1f157f4-d480-4d87-a43d-295188a1c555" />
